@@ -5,3 +5,5 @@
 再比如损失函数，你要是自己在网络最后把输出用sigmoid处理了，就别调用内置sigmoid的损失函数了，实现DICE系数时也是一样。<br>
 环境什么的不多说了，和mnist_nn_separate一样。<br>
 train数据集要自己解压，四个压缩包解压到一个文件夹里，最后目录结构应该和val一样，看看代码也能明白。<br>
+
+![image](https://github.com/charcurse/unet_64_grey_liver/blob/master/images/correct_unet_64_grey.png)
